@@ -15,6 +15,13 @@ using System.Windows.Shapes;
 
 namespace Exam_S00189001
 {
+    public enum Position {
+        Goalkeeper, //0
+        Defender,   //1
+        Midfielder, //2
+        Forward     //3
+    }
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
